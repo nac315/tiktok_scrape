@@ -105,9 +105,9 @@ On Mac/Linux, you may have to run `sudo source .venv/bin/activate`, though it sh
     sbase get chromedriver
 
 **b.** If this does not work, like if you receive the message `no module "module"`, try running
-
+```
     pip install "module"
-
+```
 
 
 
