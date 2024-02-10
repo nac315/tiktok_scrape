@@ -78,7 +78,9 @@ Some common bugs during this step include:
 If you get an error message such as this: 
 <img width="1101" alt="Error Message" src="https://github.com/mjdgv/tiktok_scrape/assets/67440369/92df93e0-8b20-48c3-af8f-ae0038522a2b">
 **Try running**
-    pip install numpy
+```
+    pip install module
+```
 
 
 ### 7. When the Code Runs...
