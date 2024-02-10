@@ -62,11 +62,21 @@ Now you should be able to run the code. The source code is located in `page_obje
 
 This will run tests we specified in `tests/` and should export data from an instance where the algorithm
 
-a. Randomly likes videos
+a. Doesn't interact with videos at all. 
 
 b. Likes videos if they're part of a pre-decided list of hashtags
 
 Any output from the tests, as well as any information about failures, will be located in a file generated called `report.html`, located in the home directory of the repository. This is what the `--html=report.html` flag indicates when we run pytest.
+
+Some common bugs during this step include: 
+
+#### _main-py: error: unrecognized arguments: --html=report.html
+**a.** Try running
+
+    pip install pytest-html
+
+If you get an error message such as this: 
+
 
 ### 7. When the Code Runs...
 When the code starts running, it will bring up a pop up window where Tiktok is open. It is important that you manually log in to the Tiktok page and solve the Captcha puzzle built to deter automated bots like us. But we're for the sake of education! So after you manually log in and solve the puzzle, get rid of the keyboard shortcut and tiktok for desktop/app pop-ups, and the algorithm should perform as intended!
@@ -94,11 +104,6 @@ On Mac/Linux, you may have to run `sudo source .venv/bin/activate`, though it sh
 **b.** If this does not work, like if you receive the message `no module "module"`, try running
 
     pip install "module"
-
-#### _main-py: error: unrecognized arguments: --html=report.html
-**a.** Try running
-
-    pip install pytest-html
 
 #### See Miles, Johanna, or Sandy for other errors
 
