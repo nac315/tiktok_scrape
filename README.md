@@ -1,9 +1,7 @@
 # tiktok_scrape
 CS315 project testing how likes affect a user's recommendation algorithm using Selenium.
 
-By: Miles Mezaki, Sandy Liu, Sarah Goldman, Caroline Jung, Johanna Lee, Audrey Liang
-
-##### The TikTok audit code is in the PageTiktok.py file in the page_objects folder. chrome_audit has not been updated.
+##### The TikTok audit code is in the PageTiktok.py file in the page_objects folder.
 
 ## How to Run the Code
 ### 1. Clone the Repository
@@ -14,9 +12,9 @@ git clone https://github.com/mjdgv/tiktok_scrape
 or by cloning manually on GitHub Desktop.
 
 ### 2. Open VS Code
-2. Activate conda's base environment (should show ```(base)``` before your directory in your terminal)
+2. Activate conda's base environment (should show ```(base)``` before your directory in your terminal). Fr
 
-    ![alt text](readme_assets/base.png)
+ (.venv) (base) mjdelg@Marias-MacBook-Pro tiktok_scrape %
 
 ### 3. cd to Repository
 Next, change your working directory to the repository you cloned. This is different from opening the folder in VS Code, though you can change directories through the terminal in VS Code.
