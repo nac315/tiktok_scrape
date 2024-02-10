@@ -76,7 +76,7 @@ Some common bugs during this step include:
     pip install pytest-html
 
 If you get an error message such as this: 
-![Remove these pop-ups](readme_assets/pop-ups.png)
+<img width="1101" alt="Error Message" src="https://github.com/mjdgv/tiktok_scrape/assets/67440369/92df93e0-8b20-48c3-af8f-ae0038522a2b">
 **Try running**
 pip install numpy (or whatever module is causing the error)
 
