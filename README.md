@@ -71,11 +71,14 @@ Any output from the tests, as well as any information about failures, will be lo
 Some common bugs during this step include: 
 
 #### _main-py: error: unrecognized arguments: --html=report.html
-**a.** Try running
+**Try running**
 
     pip install pytest-html
 
 If you get an error message such as this: 
+![Remove these pop-ups](readme_assets/pop-ups.png)
+**Try running**
+pip install numpy (or whatever module is causing the error)
 
 
 ### 7. When the Code Runs...
@@ -105,7 +108,6 @@ On Mac/Linux, you may have to run `sudo source .venv/bin/activate`, though it sh
 
     pip install "module"
 
-#### See Miles, Johanna, or Sandy for other errors
 
 
 
@@ -121,10 +123,4 @@ Currently, the code successfully identifies posts with **predefined hashtags** (
 
 
 ## Have to work on:
-- ElementClickInterception for some posts that are supposed to be liked (fixed)
-- randomly like posts (scenario 2)  (completed)
-- like posts with specific creator/sound (scenario 3) (Miles)
-- csv header (completed)
-- what information to store from html page 
-    - currently saving batch, index, video, tags, author, number of likes, ***comments, saves, shares*** (2/8 new!)
-    - might consider using pyktok later if need more specific information
+
