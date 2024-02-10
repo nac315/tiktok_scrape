@@ -9,7 +9,7 @@ By: Miles Mezaki, Sandy Liu, Sarah Goldman, Caroline Jung, Johanna Lee, Audrey L
 ### 1. Clone the Repository
 You should be able to clone the repository by running
 ```
-git clone https://github.com/mlsmzk/tiktok-like-experiment
+git clone https://github.com/mjdgv/tiktok_scrape
 ```
 or by cloning manually on GitHub Desktop.
 
