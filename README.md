@@ -13,6 +13,7 @@ or by cloning manually on GitHub Desktop.
 
 ### 2. Open VS Code
 2. Activate conda's base environment (should show ```(base)``` before your directory in your terminal).
+<img width="1105" alt="Screenshot 2024-02-11 at 12 17 43 AM" src="https://github.com/mjdgv/tiktok_scrape/assets/67440369/52b9f239-0448-4d1a-84d6-4b1b77162aca">
 
  ![Activate venv](readme_assets/base.png)
 
