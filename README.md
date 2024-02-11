@@ -74,22 +74,22 @@ b. Watches videos if they're part of a pre-decided list of hashtags.
 
 Any output from the tests, as well as any information about failures, will be located in a file generated called `report.html`, located in the home directory of the repository. This is what the `--html=report.html` flag indicates when we run pytest.
 
-**Some common bugs during this step include: **
+**Some common bugs during this step include:**
 - #### _main-py: error: unrecognized arguments: --html=report.html
-      **Try running**
+  Try running
 
          pip install pytest-html
 
 - If you get an error message such as this: 
 <img width="1101" alt="Error Message" src="https://github.com/mjdgv/tiktok_scrape/assets/67440369/92df93e0-8b20-48c3-af8f-ae0038522a2b">
-**Try running**
+Try running
 ```
 pip install module (In the scenario above module = numpy)
 ```
 
 
 ### 7. When the Code Runs...
-When the code starts running, it will bring up a pop up window where Tiktok is open. It is important that you manually log in to the Tiktok page and solve the Captcha puzzle built to deter automated bots like us. But we're for the sake of education! So after you manually log in and solve the puzzle, get rid of the keyboard shortcut and tiktok for desktop/app pop-ups, and the algorithm should perform as intended!
+When the code starts running, it will bring up a pop up window where Tiktok is open. It is important that you manually log in to the Tiktok page and solve the Captcha puzzle built to deter automated bots like us. After you manually log in and solve the puzzle, get rid of the keyboard shortcut and tiktok for desktop/app pop-ups, and the algorithm should perform as intended! You have about 40 seconds to perform this login and clear all the pop-ups, if you take any longer this will probably cause the first test to fail, the second one should still work though.
 
 ![Remove these pop-ups](readme_assets/pop-ups.png)
 
@@ -111,13 +111,6 @@ On Mac/Linux, you may have to run `sudo source .venv/bin/activate`, though it sh
 
     sbase get chromedriver
 
-**b.** If this does not work, like if you receive the message `no module "module"`, try running
-```
-    pip install "module"
-```
-
-
-
 
 ## Things to Notice:
 1. You can commment/uncomment the output csv code two iterate_through functions.
@@ -126,8 +119,9 @@ On Mac/Linux, you may have to run `sudo source .venv/bin/activate`, though it sh
 4. You will have to **manually input** your account. Afterwards you can hold on to it and wait until the page start moving. If the terminal shows that it is still running, do not touch your tiktok webpage until your pytest pass/fail(feel free to look at other stuff while waiting)
 5. report.html has to be opened in the browser to see the cleaned version
 
-Currently, the code successfully identifies posts with **predefined hashtags** (scenario 1), and scrolls to the next batch if it's done with the current batch. **random liking** has been working as well.
+Currently, the code successfully identifies posts with **predefined hashtags** (scenario 1), and scrolls to the next batch if it's done with the current batch. 
 
 
 ## Have to work on:
+- IP addresses for the locations. 
 
