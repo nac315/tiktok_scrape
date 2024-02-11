@@ -11,11 +11,16 @@ git clone https://github.com/mjdgv/tiktok_scrape
 ```
 or by cloning manually on GitHub Desktop.
 
+Tip: Clone the repository in a folder that is easy to access. You can also create a new directory by running the code below in your terminal. The mkdir command creates a folder—in this case our example folder is named scraper, but you can change the name to whatever you'd like. The cd command makes our current directory the folder we just created.
+- If you choose to go this route
+```
+mkdir scraper
+cd scraper
+```
+
 ### 2. Open VS Code
 2. Activate conda's base environment (should show ```(base)``` before your directory in your terminal).
 <img width="1105" alt="Screenshot 2024-02-11 at 12 17 43 AM" src="https://github.com/mjdgv/tiktok_scrape/assets/67440369/52b9f239-0448-4d1a-84d6-4b1b77162aca">
-
- ![Activate venv](readme_assets/base.png)
 
 ### 3. cd to Repository
 Next, change your working directory to the repository you cloned. This is different from opening the folder in VS Code, though you can change directories through the terminal in VS Code.
@@ -65,18 +70,17 @@ This will run tests we specified in `tests/` and should export data from an inst
 
 a. Doesn't interact with videos at all. 
 
-b. Likes videos if they're part of a pre-decided list of hashtags
+b. Watches videos if they're part of a pre-decided list of hashtags.
 
 Any output from the tests, as well as any information about failures, will be located in a file generated called `report.html`, located in the home directory of the repository. This is what the `--html=report.html` flag indicates when we run pytest.
 
-Some common bugs during this step include: 
+**Some common bugs during this step include: **
+- #### _main-py: error: unrecognized arguments: --html=report.html
+      **Try running**
 
-#### _main-py: error: unrecognized arguments: --html=report.html
-**Try running**
+         pip install pytest-html
 
-    pip install pytest-html
-
-If you get an error message such as this: 
+- If you get an error message such as this: 
 <img width="1101" alt="Error Message" src="https://github.com/mjdgv/tiktok_scrape/assets/67440369/92df93e0-8b20-48c3-af8f-ae0038522a2b">
 **Try running**
 ```
