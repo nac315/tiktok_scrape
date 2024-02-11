@@ -82,10 +82,9 @@ Any output from the tests, as well as any information about failures, will be lo
 
 - If you get an error message such as this: 
 <img width="1101" alt="Error Message" src="https://github.com/mjdgv/tiktok_scrape/assets/67440369/92df93e0-8b20-48c3-af8f-ae0038522a2b">
-Try running
-```
-pip install module (In the scenario above module = numpy)
-```
+  Try running
+
+         pip install module (in this case numpy)
 
 
 ### 7. When the Code Runs...
