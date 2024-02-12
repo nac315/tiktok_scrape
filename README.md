@@ -23,12 +23,10 @@ cd scraper
 <img width="1105" alt="Screenshot 2024-02-11 at 12 17 43 AM" src="https://github.com/mjdgv/tiktok_scrape/assets/67440369/52b9f239-0448-4d1a-84d6-4b1b77162aca">
 
 ### 3. cd to Repository
-Next, change your working directory to the repository you cloned. This is different from opening the folder in VS Code, though you can change directories through the terminal in VS Code.
-
-On Windows it will look something like this:
-    ![alt text](readme_assets/changedir.png)
-
-and on Mac/Linux the directory will be different but the command `cd` will stay the same. If you're confused, we recommend starting with `cd ~` (root directory) and locating the repository from there. With any luck, you'll remember where you cloned the repository and might even be able to copy the path.
+Next, change your working directory to the repository you cloned. This is different from opening the folder in VS Code, though you can change directories through the terminal in VS Code. You can change your working directory using the cd command. 
+```
+cd tiktok_scrape
+```
 
 ### 4. Create a virtual environment
 Next you will want to create a virtual environment. This can be done through Python's own venv library, or using the [easily installable virtualenv library](https://techinscribed.com/python-virtual-environment-in-vscode/). The next steps will cover installation through Python's built-in library.
